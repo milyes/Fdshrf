@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@layer base {
+  * {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #1a2e22;
+    border-radius: 3px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #2a4e32;
+  }
+  ::-webkit-scrollbar-track {
+    background: #0a0a0a;
+  }
+}
+
+.scanline {
+  background: repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 2px,
+    rgba(0, 255, 136, 0.03) 2px,
+    rgba(0, 255, 136, 0.03) 3px
+  );
+}
+
+.glow-green {
+  box-shadow: 0 0 15px rgba(0, 255, 136, 0.25);
+}
+
+.glow-red {
+  box-shadow: 0 0 15px rgba(255, 90, 60, 0.25);
+}
+
+.glow-amber {
+  box-shadow: 0 0 15px rgba(255, 204, 51, 0.25);
+}

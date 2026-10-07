@@ -1,0 +1,6 @@
+{
+  "name": "ANDROID-RCLONE ZCORE - Le Camion Blindé Cloud",
+  "description": "ZCORE Vault Manager by NetSecurePro Montréal. Terminal-grade encrypted cloud vault manager for Android Termux with AES-256-GCM, FUSE mounting, and rclone sync.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
